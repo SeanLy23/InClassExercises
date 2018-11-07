@@ -1,6 +1,5 @@
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.management.MBeanNotificationInfo;
 import javax.management.timer.Timer;
 import javax.swing.JOptionPane;
@@ -44,8 +43,9 @@ public class CoffeeWithTimer
     {
         
       
+        MBeanNotificationInfo dc;
         // TODO Auto-generated method stub
-        Timer t = new Timer (1000, dc );
+        Timer t = new Timer ();
         t.start();
         
         JOptionPane.showMessageDialog(null,  "Make another?");
